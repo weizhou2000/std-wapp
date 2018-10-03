@@ -1,0 +1,23 @@
+{
+  "name": "minip4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit":"git add . && git commit -m's'",
+    "test": "mocha --require babel-core/register --require babel-polyfill --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.3.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}

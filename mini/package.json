@@ -1,0 +1,16 @@
+{
+  "name": "mini",
+  "version": "1.0.0",
+  "description": "小程序快速启动模板。",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "regenerator-runtime": "^0.12.1"
+  }
+}
